@@ -3,6 +3,7 @@ compton
 lemonbar
 pkgfile
 zsh
+zsh-syntax-highlighting
 vim
 bspwm
 sxhkd
