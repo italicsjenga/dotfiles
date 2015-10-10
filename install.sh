@@ -1,5 +1,5 @@
-sudo pacman -S pkgfile zsh vim zsh-syntax-highlighting
-yaourt -S bspwm-git sxhkd-git compton-git lemonbar-git
+sudo pacman -S pkgfile zsh vim zsh-syntax-highlighting wmname
+yaourt -S bspwm-git sxhkd-git compton-git lemonbar-git xtitle sutils
 pkgfile --update
 
 stow bspwm

@@ -13,8 +13,8 @@ bspc config focus_by_distance   true
 bspc config top_padding 16
 bspc config focus_follows_pointer	true
 
-bspc monitor DVI-I-1 -d I II III IV V
-bspc monitor DVI-D-0 -d VI VII VIII IX X
+bspc monitor HDMI1 -d I II III IV V
+bspc monitor eDP1 -d VI VII VIII IX X
 
 bspc monitor DVI-I-1 -n ""
 bspc monitor DVI-D-0 -n ""
