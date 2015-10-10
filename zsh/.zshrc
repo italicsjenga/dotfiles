@@ -1,5 +1,8 @@
 # Path to your oh-my-zsh installation.
+cd ~/.oh-my-zsh/custom/plugins
 export ZSH=~/.oh-my-zsh
+
+cd ~
 
 # Set name of the theme to load.
 # Look in ~/.oh-my-zsh/themes/
