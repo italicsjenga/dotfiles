@@ -1,5 +1,5 @@
 ## Requires
-wmname
+wmname  
 compton  
 lemonbar  
 pkgfile  

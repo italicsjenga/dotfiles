@@ -22,6 +22,7 @@ Plugin 'bling/vim-airline'
 Plugin 'whatyouhide/vim-gotham'
 Plugin 'scrooloose/nerdtree'
 Plugin 'Xuyuanp/nerdtree-git-plugin'
+Plugin 'suan/vim-instant-markdown'
 " All of your Plugins must be added before the following line
 call vundle#end()            " required
 filetype plugin indent on    " required
