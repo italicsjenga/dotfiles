@@ -39,3 +39,20 @@ URxvt*color14:      #599caa
 
 URxvt*color7:       #98d1ce
 URxvt*color15:      #d3ebe9
+
+rofi.fg:            #98d1ce
+rofi.bg:	    #0a0f14
+
+rofi.fg-active:	    #599caa
+rofi.fg-urgent:	    #d26939
+
+rofi.hlfg-active:   #26a98b
+rofi.hlfg-urgent:   #c33027
+
+rofi.bg-active:	    #10151b
+rofi.bg-urgent:	    #081f2d
+
+rofi.hlbg-active:   #093748
+rofi.hlbg-urgent:   #195465
+
+rofi.bc:	    #4e5165
