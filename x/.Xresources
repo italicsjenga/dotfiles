@@ -12,39 +12,67 @@ URxvt*font:                           xft:Inconsolata:size=10:antialias=true:hin
 URxvt*letterSpace:                    -1
 URxvt*perl-ext-common: tabbedex
 
-URxvt*background:  #eeeeee
-URxvt*foreground:  #444444
-URxvt*cursorColor: #5f87af
-URxvt*color0:      #444444
-URxvt*color8:      #444444
-URxvt*color1:      #af0000
-URxvt*color9:      #af0000
-URxvt*color2:      #008700
-URxvt*color10:     #008700
-URxvt*color3:      #af5f00
-URxvt*color11:     #af5f00
-URxvt*color4:      #005faf
-URxvt*color12:     #005faf
-URxvt*color5:      #870087
-URxvt*color13:     #870087
-URxvt*color6:      #008787
-URxvt*color14:     #008787
-URxvt*color7:      #eeeeee
-URxvt*color15:     #eeeeee
+#define base00 #161b1d
+#define base01 #1f292e
+#define base02 #516d7b
+#define base03 #5a7b8c
+#define base04 #7195a8
+#define base05 #7ea2b4
+#define base06 #c1e4f6
+#define base07 #ebf8ff
+#define base08 #d22d72
+#define base09 #935c25
+#define base0A #8a8a0f
+#define base0B #568c3b
+#define base0C #2d8f6f
+#define base0D #257fad
+#define base0E #5d5db1
+#define base0F #b72dd2
 
-rofi.fg:            #444444
-rofi.bg:	    #eeeeee
+URxvt*.foreground:   base02
+URxvt*.background:   base07
+URxvt*.cursorColor:  base02
 
-rofi.fg-active:	    #008787
-rofi.fg-urgent:	    #af0000
+URxvt*.color0:       base00
+URxvt*.color1:       base08
+URxvt*.color2:       base0B
+URxvt*.color3:       base0A
+URxvt*.color4:       base0D
+URxvt*.color5:       base0E
+URxvt*.color6:       base0C
+URxvt*.color7:       base05
 
-rofi.hlfg-active:   #008700
-rofi.hlfg-urgent:   #af0000
+URxvt*.color8:       base03
+URxvt*.color9:       base08
+URxvt*.color10:      base0B
+URxvt*.color11:      base0A
+URxvt*.color12:      base0D
+URxvt*.color13:      base0E
+URxvt*.color14:      base0C
+URxvt*.color15:      base07
 
-rofi.bg-active:	    #444444
-rofi.bg-urgent:	    #008700
+! Note: colors beyond 15 might not be loaded (e.g., xterm, urxvt),
+! use 'shell' template to set these if necessary
+URxvt*.color16:      base09
+URxvt*.color17:      base0F
+URxvt*.color18:      base01
+URxvt*.color19:      base02
+URxvt*.color20:      base04
+URxvt*.color21:      base06
 
-rofi.hlbg-active:   #005faf
-rofi.hlbg-urgent:   #005faf
+rofi.fg:             base02
+rofi.bg:	     base07
 
-rofi.bc:	    #870087
+rofi.fg-active:	     base0C
+rofi.fg-urgent:	     base08
+
+rofi.hlfg-active:    base0B
+rofi.hlfg-urgent:    base08
+
+rofi.bg-active:	     base03
+rofi.bg-urgent:	     base0B
+
+rofi.hlbg-active:    base0D
+rofi.hlbg-urgent:    base0D
+
+rofi.bc:	     base0E

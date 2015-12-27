@@ -46,12 +46,17 @@ super + g
 #
 
 # set the window state
-super + {t,shift + t,s,f}
-	bspc node -t {tiled,pseudo_tiled,floating,fullscreen}
+super + {s,f}
+  state={floating,fullscreen}; \
+  bspc query -N --node "focused.$\{state\}" && state=tiled; \
+  bspc node -t "$state"
 
 # set the node flags
 super + ctrl + {x,y,z}
 	bspc node -g {locked,sticky,private}
+
+super + apostrophe
+	bspc node focused -s last
 
 #
 # focus/swap

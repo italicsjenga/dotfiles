@@ -25,7 +25,7 @@ Plugin 'airblade/vim-gitgutter'
 call vundle#end()
 filetype plugin indent on
 
-colorscheme gotham
+colorscheme base16-atelierlakeside
 
 set laststatus=2
 let g:airline#extensions#tabline#enabled = 1
