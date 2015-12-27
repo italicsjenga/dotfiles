@@ -12,47 +12,39 @@ URxvt*font:                           xft:Inconsolata:size=10:antialias=true:hin
 URxvt*letterSpace:                    -1
 URxvt*perl-ext-common: tabbedex
 
-URxvt*foreground:   #98d1ce
-URxvt*background:   #0a0f14
-URxvt*cursorColor:  #98d1ce
+URxvt*background:  #eeeeee
+URxvt*foreground:  #444444
+URxvt*cursorColor: #5f87af
+URxvt*color0:      #444444
+URxvt*color8:      #444444
+URxvt*color1:      #af0000
+URxvt*color9:      #af0000
+URxvt*color2:      #008700
+URxvt*color10:     #008700
+URxvt*color3:      #af5f00
+URxvt*color11:     #af5f00
+URxvt*color4:      #005faf
+URxvt*color12:     #005faf
+URxvt*color5:      #870087
+URxvt*color13:     #870087
+URxvt*color6:      #008787
+URxvt*color14:     #008787
+URxvt*color7:      #eeeeee
+URxvt*color15:     #eeeeee
 
-URxvt*color0:       #0a0f14
-URxvt*color8:       #10151b
+rofi.fg:            #444444
+rofi.bg:	    #eeeeee
 
-URxvt*color1:       #c33027
-URxvt*color9:       #d26939
+rofi.fg-active:	    #008787
+rofi.fg-urgent:	    #af0000
 
-URxvt*color2:       #26a98b
-URxvt*color10:      #081f2d
+rofi.hlfg-active:   #008700
+rofi.hlfg-urgent:   #af0000
 
-URxvt*color3:       #edb54b
-URxvt*color11:      #245361
+rofi.bg-active:	    #444444
+rofi.bg-urgent:	    #008700
 
-URxvt*color4:       #195465
-URxvt*color12:      #093748
+rofi.hlbg-active:   #005faf
+rofi.hlbg-urgent:   #005faf
 
-URxvt*color5:       #4e5165
-URxvt*color13:      #888ba5
-
-URxvt*color6:       #33859d
-URxvt*color14:      #599caa
-
-URxvt*color7:       #98d1ce
-URxvt*color15:      #d3ebe9
-
-rofi.fg:            #98d1ce
-rofi.bg:	    #0a0f14
-
-rofi.fg-active:	    #599caa
-rofi.fg-urgent:	    #d26939
-
-rofi.hlfg-active:   #26a98b
-rofi.hlfg-urgent:   #c33027
-
-rofi.bg-active:	    #10151b
-rofi.bg-urgent:	    #081f2d
-
-rofi.hlbg-active:   #093748
-rofi.hlbg-urgent:   #195465
-
-rofi.bc:	    #4e5165
+rofi.bc:	    #870087
