@@ -2,18 +2,17 @@
 
 case $1 in
    "play")
-       key="XF86AudioPlay"
+       playerctl play-pause
        ;;
    "next")
-       key="XF86AudioNext"
+       playerctl next
        ;;
    "prev")
-       key="XF86AudioPrev"
+       playerctl previous
        ;;
    *)
        echo "Usage: $0 play|next|prev"
        exit 1
         ;;
 esac
-xdotool key --window $(xdotool search --name "Spotify (Premium |Unlimited |Free )?- Linux Preview"|head -n1) $key
 exit 0

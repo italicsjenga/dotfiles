@@ -2,6 +2,15 @@
 # wm independent hotkeys
 #
 
+XF86AudioPlay
+	/home/alex/spotifykeys.sh play
+
+XF86AudioNext
+	/home/alex/spotifykeys.sh next
+
+XF86AudioPrev
+	/home/alex/spotifykeys.sh prev
+
 # terminal emulator
 super + Return
 	urxvt
