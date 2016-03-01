@@ -1,7 +1,7 @@
-URxvt.tabbed.autohide: true
-URxvt.keysym.Control-t: perl:tabbedex:new_tab
-URxvt.keysym.Control-Tab: perl:tabbedex:next_tab
-URxvt.keysym.Control-Shift-Tab: perl:tabbedex:prev_tab
+URxvt.tabbed.autohide: 		true
+URxvt.keysym.Control-t: 	perl:tabbedex:new_tab
+URxvt.keysym.Control-Tab: 	perl:tabbedex:next_tab
+URxvt.keysym.Control-Shift-Tab:	perl:tabbedex:prev_tab
 
 URxvt*scrollBar:                      false
 URxvt*transparent:                    false
@@ -10,7 +10,10 @@ URxvt*highlightTextColor:             #383838
 URxvt*font:                           xft:Inconsolata:size=10:antialias=true:hinting=true
 !URxvt*depth:                            32
 URxvt*letterSpace:                    -1
-URxvt*perl-ext-common: tabbedex
+URxvt*perl-ext-common: 		      tabbedex
+
+URxvt.tabbed.title:	no
+URxvt.tabbed.new-button:no
 
 #define base00 #161b1d
 #define base01 #1f292e
@@ -28,6 +31,11 @@ URxvt*perl-ext-common: tabbedex
 #define base0D #257fad
 #define base0E #5d5db1
 #define base0F #b72dd2
+
+URxvt.tabbed.tabbar-fg:	19
+URxvt.tabbed.tabbar-bg: 15
+URxvt.tabbed.tab-fg:	19 
+URxvt.tabbed.tab-bg:	1
 
 URxvt*.foreground:   base02
 URxvt*.background:   base07
