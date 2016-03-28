@@ -8,6 +8,6 @@ fi
 xrdb -merge ~/.Xresources
 
 sh ~/.fehbg &
-compton -b &
+compton --vsync opengl -b &
 sxhkd &
 exec bspwm
