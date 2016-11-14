@@ -2,6 +2,8 @@
 cd ~/.oh-my-zsh/custom/plugins
 export ZSH=~/.oh-my-zsh
 
+export VISUAL=nvim
+
 cd ~
 
 # Set name of the theme to load.

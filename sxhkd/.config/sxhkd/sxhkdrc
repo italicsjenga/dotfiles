@@ -1,3 +1,7 @@
+# screenshot
+super + shift + Escape 
+	sleep 0.2; scrot -s -e 'mv $f ~/Pictures/Screenshot/'
+
 #
 # wm independent hotkeys
 #
